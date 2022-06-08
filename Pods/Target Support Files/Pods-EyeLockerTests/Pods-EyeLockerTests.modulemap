@@ -1,0 +1,6 @@
+framework module Pods_EyeLockerTests {
+  umbrella header "Pods-EyeLockerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

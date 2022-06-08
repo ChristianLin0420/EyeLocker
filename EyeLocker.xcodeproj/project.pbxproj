@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0B6753E14F2F3A32E188CC /* Pods_EyeLocker_EyeLockerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB68C582CC955D113D0C400 /* Pods_EyeLocker_EyeLockerUITests.framework */; };
+		671A9E8FFDE5D21005A5BB8A /* Pods_EyeLocker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6B408404E8EF0B556F103E /* Pods_EyeLocker.framework */; };
+		6D8673F32844B8ED004953FD /* EyeLockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8673F22844B8ED004953FD /* EyeLockerApp.swift */; };
+		6D8673F52844B8ED004953FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8673F42844B8ED004953FD /* ContentView.swift */; };
+		6D8673F72844B8EE004953FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8673F62844B8EE004953FD /* Assets.xcassets */; };
+		6D8673FA2844B8EE004953FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8673F92844B8EE004953FD /* Preview Assets.xcassets */; };
+		6D8674042844B8EE004953FD /* EyeLockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8674032844B8EE004953FD /* EyeLockerTests.swift */; };
+		6D86740E2844B8EE004953FD /* EyeLockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86740D2844B8EE004953FD /* EyeLockerUITests.swift */; };
+		6D8674102844B8EE004953FD /* EyeLockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86740F2844B8EE004953FD /* EyeLockerUITestsLaunchTests.swift */; };
+		6D86741E2844B92A004953FD /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86741D2844B92A004953FD /* WelcomeScreenView.swift */; };
+		6D8674202844B974004953FD /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86741F2844B974004953FD /* SignInScreenView.swift */; };
+		6D86742928472719004953FD /* ConnectDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86742828472719004953FD /* ConnectDeviceView.swift */; };
+		6D86742C2847C0D9004953FD /* LoadingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86742B2847C0D9004953FD /* LoadingSpinner.swift */; };
+		6D86742E2847C13D004953FD /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D86742D2847C13D004953FD /* Helper.swift */; };
+		6DEC69FB284CF46900A32FF0 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEC69FA284CF46900A32FF0 /* Socket.swift */; };
+		6DEC6A3B2850C6B700A32FF0 /* PlayMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEC6A3A2850C6B700A32FF0 /* PlayMusicView.swift */; };
+		6DEC6A3D2850CD2B00A32FF0 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEC6A3C2850CD2B00A32FF0 /* ControlView.swift */; };
+		6DEC6A422850E94200A32FF0 /* 23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DEC6A412850E94200A32FF0 /* 23.mp3 */; };
+		CA39C96C6242E6A659D6D1BC /* Pods_EyeLockerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA8ED7BB50F9C2831D814BB /* Pods_EyeLockerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D8674002844B8EE004953FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D8673E72844B8ED004953FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D8673EE2844B8ED004953FD;
+			remoteInfo = EyeLocker;
+		};
+		6D86740A2844B8EE004953FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D8673E72844B8ED004953FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D8673EE2844B8ED004953FD;
+			remoteInfo = EyeLocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B85A5B1DC0C5EE32B821B3 /* Pods-EyeLocker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeLocker.debug.xcconfig"; path = "Target Support Files/Pods-EyeLocker/Pods-EyeLocker.debug.xcconfig"; sourceTree = "<group>"; };
+		22DEA8EA0A5FE12E358BCDA9 /* Pods-EyeLocker-EyeLockerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeLocker-EyeLockerUITests.release.xcconfig"; path = "Target Support Files/Pods-EyeLocker-EyeLockerUITests/Pods-EyeLocker-EyeLockerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CB68C582CC955D113D0C400 /* Pods_EyeLocker_EyeLockerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeLocker_EyeLockerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA8ED7BB50F9C2831D814BB /* Pods_EyeLockerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeLockerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D24D63003E6D0C4E400DC6 /* Pods-EyeLocker-EyeLockerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeLocker-EyeLockerUITests.debug.xcconfig"; path = "Target Support Files/Pods-EyeLocker-EyeLockerUITests/Pods-EyeLocker-EyeLockerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D8673EF2844B8ED004953FD /* EyeLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8673F22844B8ED004953FD /* EyeLockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeLockerApp.swift; sourceTree = "<group>"; };
+		6D8673F42844B8ED004953FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6D8673F62844B8EE004953FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D8673F92844B8EE004953FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D8673FF2844B8EE004953FD /* EyeLockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeLockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8674032844B8EE004953FD /* EyeLockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeLockerTests.swift; sourceTree = "<group>"; };
+		6D8674092844B8EE004953FD /* EyeLockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeLockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D86740D2844B8EE004953FD /* EyeLockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeLockerUITests.swift; sourceTree = "<group>"; };
+		6D86740F2844B8EE004953FD /* EyeLockerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeLockerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6D86741D2844B92A004953FD /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		6D86741F2844B974004953FD /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
+		6D86742828472719004953FD /* ConnectDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectDeviceView.swift; sourceTree = "<group>"; };
+		6D86742B2847C0D9004953FD /* LoadingSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSpinner.swift; sourceTree = "<group>"; };
+		6D86742D2847C13D004953FD /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		6DEC69FA284CF46900A32FF0 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		6DEC6A3A2850C6B700A32FF0 /* PlayMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMusicView.swift; sourceTree = "<group>"; };
+		6DEC6A3C2850CD2B00A32FF0 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		6DEC6A412850E94200A32FF0 /* 23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 23.mp3; sourceTree = "<group>"; };
+		71191A1EAFA15BD152FBA10E /* Pods-EyeLockerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeLockerTests.debug.xcconfig"; path = "Target Support Files/Pods-EyeLockerTests/Pods-EyeLockerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C7F6C401F030AF2FA6E3E3F /* Pods-EyeLocker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeLocker.release.xcconfig"; path = "Target Support Files/Pods-EyeLocker/Pods-EyeLocker.release.xcconfig"; sourceTree = "<group>"; };
+		D4B30A97070176EF9714B4F3 /* Pods-EyeLockerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeLockerTests.release.xcconfig"; path = "Target Support Files/Pods-EyeLockerTests/Pods-EyeLockerTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA6B408404E8EF0B556F103E /* Pods_EyeLocker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeLocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D8673EC2844B8ED004953FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671A9E8FFDE5D21005A5BB8A /* Pods_EyeLocker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8673FC2844B8EE004953FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA39C96C6242E6A659D6D1BC /* Pods_EyeLockerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8674062844B8EE004953FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0B6753E14F2F3A32E188CC /* Pods_EyeLocker_EyeLockerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213EBCE0025EC28D1F1F784F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B408404E8EF0B556F103E /* Pods_EyeLocker.framework */,
+				2CB68C582CC955D113D0C400 /* Pods_EyeLocker_EyeLockerUITests.framework */,
+				3AA8ED7BB50F9C2831D814BB /* Pods_EyeLockerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39283A045CAEEEB31E9BA703 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17B85A5B1DC0C5EE32B821B3 /* Pods-EyeLocker.debug.xcconfig */,
+				9C7F6C401F030AF2FA6E3E3F /* Pods-EyeLocker.release.xcconfig */,
+				45D24D63003E6D0C4E400DC6 /* Pods-EyeLocker-EyeLockerUITests.debug.xcconfig */,
+				22DEA8EA0A5FE12E358BCDA9 /* Pods-EyeLocker-EyeLockerUITests.release.xcconfig */,
+				71191A1EAFA15BD152FBA10E /* Pods-EyeLockerTests.debug.xcconfig */,
+				D4B30A97070176EF9714B4F3 /* Pods-EyeLockerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D8673E62844B8ED004953FD = {
+			isa = PBXGroup;
+			children = (
+				6D8673F12844B8ED004953FD /* EyeLocker */,
+				6D8674022844B8EE004953FD /* EyeLockerTests */,
+				6D86740C2844B8EE004953FD /* EyeLockerUITests */,
+				6D8673F02844B8ED004953FD /* Products */,
+				39283A045CAEEEB31E9BA703 /* Pods */,
+				213EBCE0025EC28D1F1F784F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D8673F02844B8ED004953FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D8673EF2844B8ED004953FD /* EyeLocker.app */,
+				6D8673FF2844B8EE004953FD /* EyeLockerTests.xctest */,
+				6D8674092844B8EE004953FD /* EyeLockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D8673F12844B8ED004953FD /* EyeLocker */ = {
+			isa = PBXGroup;
+			children = (
+				6DEC6A3E2850D5D600A32FF0 /* Audio */,
+				6DEC69F9284CF45700A32FF0 /* Communication */,
+				6D86741C2844B91B004953FD /* Screens */,
+				6D8673F22844B8ED004953FD /* EyeLockerApp.swift */,
+				6D8673F42844B8ED004953FD /* ContentView.swift */,
+				6D8673F62844B8EE004953FD /* Assets.xcassets */,
+				6D8673F82844B8EE004953FD /* Preview Content */,
+			);
+			path = EyeLocker;
+			sourceTree = "<group>";
+		};
+		6D8673F82844B8EE004953FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6D8673F92844B8EE004953FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6D8674022844B8EE004953FD /* EyeLockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D8674032844B8EE004953FD /* EyeLockerTests.swift */,
+			);
+			path = EyeLockerTests;
+			sourceTree = "<group>";
+		};
+		6D86740C2844B8EE004953FD /* EyeLockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D86740D2844B8EE004953FD /* EyeLockerUITests.swift */,
+				6D86740F2844B8EE004953FD /* EyeLockerUITestsLaunchTests.swift */,
+			);
+			path = EyeLockerUITests;
+			sourceTree = "<group>";
+		};
+		6D86741C2844B91B004953FD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6D86742A2847C0C8004953FD /* Components */,
+				6D86741D2844B92A004953FD /* WelcomeScreenView.swift */,
+				6D86741F2844B974004953FD /* SignInScreenView.swift */,
+				6DEC6A3C2850CD2B00A32FF0 /* ControlView.swift */,
+				6D86742828472719004953FD /* ConnectDeviceView.swift */,
+				6DEC6A3A2850C6B700A32FF0 /* PlayMusicView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6D86742A2847C0C8004953FD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6D86742B2847C0D9004953FD /* LoadingSpinner.swift */,
+				6D86742D2847C13D004953FD /* Helper.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6DEC69F9284CF45700A32FF0 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				6DEC69FA284CF46900A32FF0 /* Socket.swift */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		6DEC6A3E2850D5D600A32FF0 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				6DEC6A412850E94200A32FF0 /* 23.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D8673EE2844B8ED004953FD /* EyeLocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8674132844B8EE004953FD /* Build configuration list for PBXNativeTarget "EyeLocker" */;
+			buildPhases = (
+				BE4B8627DDC0C83A9F72FB38 /* [CP] Check Pods Manifest.lock */,
+				6D8673EB2844B8ED004953FD /* Sources */,
+				6D8673EC2844B8ED004953FD /* Frameworks */,
+				6D8673ED2844B8ED004953FD /* Resources */,
+				284FFE9A4B3A15B505EC9277 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EyeLocker;
+			productName = EyeLocker;
+			productReference = 6D8673EF2844B8ED004953FD /* EyeLocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D8673FE2844B8EE004953FD /* EyeLockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8674162844B8EE004953FD /* Build configuration list for PBXNativeTarget "EyeLockerTests" */;
+			buildPhases = (
+				30E9FD7E53AE56D9C517F451 /* [CP] Check Pods Manifest.lock */,
+				6D8673FB2844B8EE004953FD /* Sources */,
+				6D8673FC2844B8EE004953FD /* Frameworks */,
+				6D8673FD2844B8EE004953FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D8674012844B8EE004953FD /* PBXTargetDependency */,
+			);
+			name = EyeLockerTests;
+			productName = EyeLockerTests;
+			productReference = 6D8673FF2844B8EE004953FD /* EyeLockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D8674082844B8EE004953FD /* EyeLockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8674192844B8EE004953FD /* Build configuration list for PBXNativeTarget "EyeLockerUITests" */;
+			buildPhases = (
+				F454ED7B0FF7BE23CB329C50 /* [CP] Check Pods Manifest.lock */,
+				6D8674052844B8EE004953FD /* Sources */,
+				6D8674062844B8EE004953FD /* Frameworks */,
+				6D8674072844B8EE004953FD /* Resources */,
+				DDF105D419F047D4DD7DAB40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D86740B2844B8EE004953FD /* PBXTargetDependency */,
+			);
+			name = EyeLockerUITests;
+			productName = EyeLockerUITests;
+			productReference = 6D8674092844B8EE004953FD /* EyeLockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D8673E72844B8ED004953FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6D8673EE2844B8ED004953FD = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					6D8673FE2844B8EE004953FD = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6D8673EE2844B8ED004953FD;
+					};
+					6D8674082844B8EE004953FD = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6D8673EE2844B8ED004953FD;
+					};
+				};
+			};
+			buildConfigurationList = 6D8673EA2844B8ED004953FD /* Build configuration list for PBXProject "EyeLocker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D8673E62844B8ED004953FD;
+			productRefGroup = 6D8673F02844B8ED004953FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D8673EE2844B8ED004953FD /* EyeLocker */,
+				6D8673FE2844B8EE004953FD /* EyeLockerTests */,
+				6D8674082844B8EE004953FD /* EyeLockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D8673ED2844B8ED004953FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEC6A422850E94200A32FF0 /* 23.mp3 in Resources */,
+				6D8673FA2844B8EE004953FD /* Preview Assets.xcassets in Resources */,
+				6D8673F72844B8EE004953FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8673FD2844B8EE004953FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8674072844B8EE004953FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		284FFE9A4B3A15B505EC9277 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeLocker/Pods-EyeLocker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeLocker/Pods-EyeLocker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyeLocker/Pods-EyeLocker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30E9FD7E53AE56D9C517F451 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeLockerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4B8627DDC0C83A9F72FB38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeLocker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDF105D419F047D4DD7DAB40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeLocker-EyeLockerUITests/Pods-EyeLocker-EyeLockerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeLocker-EyeLockerUITests/Pods-EyeLocker-EyeLockerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyeLocker-EyeLockerUITests/Pods-EyeLocker-EyeLockerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F454ED7B0FF7BE23CB329C50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeLocker-EyeLockerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D8673EB2844B8ED004953FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEC69FB284CF46900A32FF0 /* Socket.swift in Sources */,
+				6D8674202844B974004953FD /* SignInScreenView.swift in Sources */,
+				6D86742E2847C13D004953FD /* Helper.swift in Sources */,
+				6D86741E2844B92A004953FD /* WelcomeScreenView.swift in Sources */,
+				6DEC6A3D2850CD2B00A32FF0 /* ControlView.swift in Sources */,
+				6D86742C2847C0D9004953FD /* LoadingSpinner.swift in Sources */,
+				6D86742928472719004953FD /* ConnectDeviceView.swift in Sources */,
+				6DEC6A3B2850C6B700A32FF0 /* PlayMusicView.swift in Sources */,
+				6D8673F52844B8ED004953FD /* ContentView.swift in Sources */,
+				6D8673F32844B8ED004953FD /* EyeLockerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8673FB2844B8EE004953FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8674042844B8EE004953FD /* EyeLockerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8674052844B8EE004953FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8674102844B8EE004953FD /* EyeLockerUITestsLaunchTests.swift in Sources */,
+				6D86740E2844B8EE004953FD /* EyeLockerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D8674012844B8EE004953FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D8673EE2844B8ED004953FD /* EyeLocker */;
+			targetProxy = 6D8674002844B8EE004953FD /* PBXContainerItemProxy */;
+		};
+		6D86740B2844B8EE004953FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D8673EE2844B8ED004953FD /* EyeLocker */;
+			targetProxy = 6D86740A2844B8EE004953FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D8674112844B8EE004953FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D8674122844B8EE004953FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D8674142844B8EE004953FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B85A5B1DC0C5EE32B821B3 /* Pods-EyeLocker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EyeLocker/Preview Content\"";
+				DEVELOPMENT_TEAM = 6M4XP68Z6V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisitanLin.EyeLocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D8674152844B8EE004953FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7F6C401F030AF2FA6E3E3F /* Pods-EyeLocker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EyeLocker/Preview Content\"";
+				DEVELOPMENT_TEAM = 6M4XP68Z6V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisitanLin.EyeLocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D8674172844B8EE004953FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71191A1EAFA15BD152FBA10E /* Pods-EyeLockerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M4XP68Z6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisitanLin.EyeLockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeLocker.app/EyeLocker";
+			};
+			name = Debug;
+		};
+		6D8674182844B8EE004953FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B30A97070176EF9714B4F3 /* Pods-EyeLockerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M4XP68Z6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisitanLin.EyeLockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeLocker.app/EyeLocker";
+			};
+			name = Release;
+		};
+		6D86741A2844B8EE004953FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D24D63003E6D0C4E400DC6 /* Pods-EyeLocker-EyeLockerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M4XP68Z6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisitanLin.EyeLockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EyeLocker;
+			};
+			name = Debug;
+		};
+		6D86741B2844B8EE004953FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DEA8EA0A5FE12E358BCDA9 /* Pods-EyeLocker-EyeLockerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M4XP68Z6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisitanLin.EyeLockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EyeLocker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D8673EA2844B8ED004953FD /* Build configuration list for PBXProject "EyeLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8674112844B8EE004953FD /* Debug */,
+				6D8674122844B8EE004953FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8674132844B8EE004953FD /* Build configuration list for PBXNativeTarget "EyeLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8674142844B8EE004953FD /* Debug */,
+				6D8674152844B8EE004953FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8674162844B8EE004953FD /* Build configuration list for PBXNativeTarget "EyeLockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8674172844B8EE004953FD /* Debug */,
+				6D8674182844B8EE004953FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8674192844B8EE004953FD /* Build configuration list for PBXNativeTarget "EyeLockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D86741A2844B8EE004953FD /* Debug */,
+				6D86741B2844B8EE004953FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D8673E72844B8ED004953FD /* Project object */;
+}
