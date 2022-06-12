@@ -48,9 +48,12 @@ struct ConnectDeviceView: View {
                             
                             if data == "1" {        // shown unlock
                                 connectTitle = "Connectted!"
-                                viewModel.connected = true
+                                
+                                DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                                    self.viewModel.connected = true
+                                }
                             } else if data == "2" { // show music playing
-                                viewModel.connected = true
+                                connectTitle = "Try Again!"
                             }
                         }
                     }

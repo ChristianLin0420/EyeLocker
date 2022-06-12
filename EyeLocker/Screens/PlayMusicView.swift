@@ -178,9 +178,9 @@ struct PlayMusicView: View {
                         if let userInfo = output.userInfo, let info = userInfo["event"] {
                             guard let data = info as? String else { return }
                             
-                            if data == "1" {                // reset music
+                            if data == "2" {                // reset music
                                 viewModel.stop_playing()
-                            } else if data == "2" {         // start/keep playing
+                            } else if data == "1" {         // start/keep playing
                                 viewModel.isPlaying.toggle()
                             }
                         }

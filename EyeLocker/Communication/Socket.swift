@@ -16,7 +16,7 @@ class Socket {
     private var emittedTimer: Timer = Timer()
 
     init() {
-         manager = SocketManager(socketURL: URL(string: "http://localhost:5000")!, config: [.log(true),.reconnects(true)])
+         manager = SocketManager(socketURL: URL(string: "http://192.168.77.24:5000")!, config: [.log(true),.reconnects(true)])
          socket = manager.defaultSocket
     }
     
@@ -27,10 +27,10 @@ class Socket {
         }
                     
         socket.on("get_event") {data, ack in
-            guard let b = data[0] as? Int else { return }
-            print("test: " + String(b))
+            guard let b = data[0] as? String else { return }
+            print("test: " + b)
             
-            NotificationCenter.default.post(name: NSNotification.Name("click_event"), object: nil, userInfo: ["event": String(b / 3)])
+            NotificationCenter.default.post(name: NSNotification.Name("click_event"), object: nil, userInfo: ["event": b])
             
             if !self.connected {
                 self.connected = true

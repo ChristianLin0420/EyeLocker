@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B0B6753E14F2F3A32E188CC /* Pods_EyeLocker_EyeLockerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB68C582CC955D113D0C400 /* Pods_EyeLocker_EyeLockerUITests.framework */; };
 		671A9E8FFDE5D21005A5BB8A /* Pods_EyeLocker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6B408404E8EF0B556F103E /* Pods_EyeLocker.framework */; };
+		6D15AC302851EF99006AC743 /* 23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D15AC2F2851EF99006AC743 /* 23.mp3 */; };
 		6D8673F32844B8ED004953FD /* EyeLockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8673F22844B8ED004953FD /* EyeLockerApp.swift */; };
 		6D8673F52844B8ED004953FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8673F42844B8ED004953FD /* ContentView.swift */; };
 		6D8673F72844B8EE004953FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8673F62844B8EE004953FD /* Assets.xcassets */; };
@@ -24,7 +25,6 @@
 		6DEC69FB284CF46900A32FF0 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEC69FA284CF46900A32FF0 /* Socket.swift */; };
 		6DEC6A3B2850C6B700A32FF0 /* PlayMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEC6A3A2850C6B700A32FF0 /* PlayMusicView.swift */; };
 		6DEC6A3D2850CD2B00A32FF0 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEC6A3C2850CD2B00A32FF0 /* ControlView.swift */; };
-		6DEC6A422850E94200A32FF0 /* 23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DEC6A412850E94200A32FF0 /* 23.mp3 */; };
 		CA39C96C6242E6A659D6D1BC /* Pods_EyeLockerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA8ED7BB50F9C2831D814BB /* Pods_EyeLockerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +51,7 @@
 		2CB68C582CC955D113D0C400 /* Pods_EyeLocker_EyeLockerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeLocker_EyeLockerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA8ED7BB50F9C2831D814BB /* Pods_EyeLockerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeLockerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D24D63003E6D0C4E400DC6 /* Pods-EyeLocker-EyeLockerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeLocker-EyeLockerUITests.debug.xcconfig"; path = "Target Support Files/Pods-EyeLocker-EyeLockerUITests/Pods-EyeLocker-EyeLockerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D15AC2F2851EF99006AC743 /* 23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 23.mp3; sourceTree = "<group>"; };
 		6D8673EF2844B8ED004953FD /* EyeLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8673F22844B8ED004953FD /* EyeLockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeLockerApp.swift; sourceTree = "<group>"; };
 		6D8673F42844B8ED004953FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,7 +70,6 @@
 		6DEC69FA284CF46900A32FF0 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
 		6DEC6A3A2850C6B700A32FF0 /* PlayMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMusicView.swift; sourceTree = "<group>"; };
 		6DEC6A3C2850CD2B00A32FF0 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
-		6DEC6A412850E94200A32FF0 /* 23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 23.mp3; sourceTree = "<group>"; };
 		71191A1EAFA15BD152FBA10E /* Pods-EyeLockerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeLockerTests.debug.xcconfig"; path = "Target Support Files/Pods-EyeLockerTests/Pods-EyeLockerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C7F6C401F030AF2FA6E3E3F /* Pods-EyeLocker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeLocker.release.xcconfig"; path = "Target Support Files/Pods-EyeLocker/Pods-EyeLocker.release.xcconfig"; sourceTree = "<group>"; };
 		D4B30A97070176EF9714B4F3 /* Pods-EyeLockerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeLockerTests.release.xcconfig"; path = "Target Support Files/Pods-EyeLockerTests/Pods-EyeLockerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -221,7 +221,7 @@
 		6DEC6A3E2850D5D600A32FF0 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				6DEC6A412850E94200A32FF0 /* 23.mp3 */,
+				6D15AC2F2851EF99006AC743 /* 23.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -335,7 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DEC6A422850E94200A32FF0 /* 23.mp3 in Resources */,
+				6D15AC302851EF99006AC743 /* 23.mp3 in Resources */,
 				6D8673FA2844B8EE004953FD /* Preview Assets.xcassets in Resources */,
 				6D8673F72844B8EE004953FD /* Assets.xcassets in Resources */,
 			);
